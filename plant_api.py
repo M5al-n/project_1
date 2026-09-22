@@ -1,4 +1,5 @@
 import requests
+import streamlit as st
 API_KEY=st.secrets['API_KeY']
 def get_plant_data(plant_name):
     url="https://perenual.com/api/v2/species-list"
