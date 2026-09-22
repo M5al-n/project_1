@@ -66,4 +66,4 @@ CSS was employed in changing the text color into dark text color while retaining
 
 Plant Care Tracker Application: https://plant-care212.streamlit.app/
 
-Project Introduction Video:
+Project Introduction Video: https://github.com/M5al-n/project_1/blob/main/Screen%20Recording%202026-09-22%20210702%20(1).mp4
