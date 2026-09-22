@@ -61,7 +61,9 @@ After the program was deployed on Streamlit Cloud, some text appeared too light 
 
 Solution
 
+
 CSS was employed in changing the text color into dark text color while retaining the light-green design.
 
-https://plant-care212.streamlit.app/
+Plant Care Tracker Application: https://plant-care212.streamlit.app/
 
+Project Introduction Video:
