@@ -16,6 +16,21 @@ from plant_chat import plant_care_chat
 st.set_page_config(page_title="Plant Care Tracker",page_icon="🌿",layout="wide")
 st.markdown("""
 <style>
+.stApp {
+color: #1B1B1B;
+}
+
+[data-testid="stSidebar"] {
+background-color: #E8F5E9;
+}
+
+[data-testid="stSidebar"] * {
+color: #1B4332 !important;
+}
+
+h1, h2, h3, p {
+color: #1B1B1B;
+}
 [data-testid="stSidebar"] {
 background-color: #E8F5E9;
 }
