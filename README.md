@@ -1,4 +1,4 @@
-Plant Care Tracker
+# Plant Care Tracker
 
  Introduction
 
