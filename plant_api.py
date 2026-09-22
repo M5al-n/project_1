@@ -1,5 +1,5 @@
 import requests
-API_KEY="API_KeY"
+API_KEY=st.secrets['API_KeY']
 def get_plant_data(plant_name):
     url="https://perenual.com/api/v2/species-list"
     params={"key":API_KEY,"q":plant_name}
