@@ -1,0 +1,24 @@
+plant_name,location,date_acquired,watering_frequency,sunlight_needs,plant_type,season,care_tip,watering_interval
+Monstera,Living Room,2026-09-16,7,Medium,,,,
+Monstera,Living Room,2026-09-16,1,Low,,,,
+rose,garden,2026-09-18,3,Medium,,,,
+Rose,balcony,2026-09-14,10,High,,,,
+Tulip,Living room,2026-09-08,8,Medium,,,,
+Lily,House entrance,2026-09-10,12,Medium,,,,
+Orchid,Bedroom,2026-09-14,7,Low,,,,
+Sunflower,Garden or balcony,2026-09-15,9,High,,,,
+Daisy,Garden or balcony,2026-09-01,11,Medium,,,,
+Carnation,Kitchen,2026-09-01,6,Medium,,,,
+Peony,House entrance,2026-09-06,5,Medium,,,,
+Jasmine,garden,2026-09-06,13,High,,,,
+Lavender,Bedroom,2026-09-09,8,Low,,,,
+azara,,2026-09-20,7,"Full sun, part shade",Tropical,Spring,"Watering level: Average. Water approximately every ""3-4"" days. Recommended sunlight: Full sun, part shade.",
+azara,,2026-09-20,7,"Full sun, part shade",Tropical,Spring,"Watering level: Average. Water approximately every ""3-4"" days. Recommended sunlight: Full sun, part shade.",
+Forest Pansy Redbud,,2026-09-20,7,"full sun, part sun/part shade",Tropical,Spring,"Watering level: Average. Water approximately every ""3-4"" days. Recommended sunlight: full sun, part sun/part shade.",
+Mocha Rose Big Leaf Maple,bedroom,2026-09-20,8,"full sun, part shade",Tropical,Spring,"Watering level: Average. Water approximately every ""7-10"" days. Recommended sunlight: full sun, part shade.","""7-10"" days"
+dahlia,living room,2026-09-20,4,Full sun,Tropical,Spring,"Watering level: Average. Water approximately every ""3-4"" days. Recommended sunlight: Full sun.","""3-4"" days"
+Mocha Rose Big Leaf Maple,BEDROOM,2026-09-20,8,"full sun, part shade",Flowering,Summer,"Watering level: Average. Water approximately every ""7-10"" days. Recommended sunlight: full sun, part shade.","""7-10"" days"
+Mocha Rose Big Leaf Maple,BEDROOM,2026-09-20,8,"full sun, part shade",Tropical,Summer,"Watering level: Average. Water approximately every ""7-10"" days. Recommended sunlight: full sun, part shade.","""7-10"" days"
+Mocha Rose Big Leaf Maple,BEDROOM,2026-09-20,8,"full sun, part shade",Herb,Summer,"Watering level: Average. Water approximately every ""7-10"" days. Recommended sunlight: full sun, part shade.","""7-10"" days"
+Mocha Rose Big Leaf Maple,BEDROOM,2026-09-20,8,"full sun, part shade",Succulent,Summer,"Watering level: Average. Water approximately every ""7-10"" days. Recommended sunlight: full sun, part shade.","""7-10"" days"
+Mocha Rose Big Leaf Maple,living room,2026-09-21,8,"full sun, part shade",Flowering,Summer,"Watering level: Average. Water approximately every ""7-10"" days. Recommended sunlight: full sun, part shade.","""7-10"" days"
