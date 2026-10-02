@@ -4,24 +4,28 @@ import os
 import re# NUM API
 from plant_api import get_plant_data
 def add_new_plant():
+    ## Collect the plant details from the user
     st.header("Add a New Plant")
     plant_name=st.text_input("Plant name/species")
     plant_type=st.selectbox("Plant type",["Tropical","Succulent","Flowering","Herb","Other"])
     season=st.selectbox("Season",["Spring","Summer","Autumn","Winter"])
     location=st.text_input("Location in home")
     date_acquired=st.date_input("Date acquired")
+    # Search plant information using the API:
     if st.button("Get Plant Care Information"):
         if plant_name=="":
             st.error("Please enter the plant name.")
         else:
             plant_data=get_plant_data(plant_name)#API
             if plant_data is not None:
+                # Keep the API result accessible by storing it on the page
                 st.session_state["plant_data"]=plant_data
                 st.success("Plant information found!")
             else:
                 st.error("Plant not found in the API.")
     if "plant_data" in st.session_state:
         plant_data=st.session_state["plant_data"]
+        # Get the watering and sunlight information from  API output
         common_name=plant_data.get("common_name",plant_name) #KeyError
         watering=plant_data.get("watering","Not available")
         sunlight_data=plant_data.get("sunlight",[])
