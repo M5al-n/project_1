@@ -1,69 +1,53 @@
-# Plant Care Tracker
+Plant Care Tracker
+Introduction
+This is a Python program developed through Streamlit, used for managing the plants owned by the user. Plant data is provided in CSV form, whereas an external Plant API is used for fetching data related to watering and sunlight.
 
-## Introduction
+Problem and Solution
+People owning plants may have problems keeping track of watering schedules, care tips, and data related to the plants they own. This program enables the user to consolidate all the data and provides care tips from an external API.
 
-This is a Python application built using Streamlit for managing the user's plants. The plant data is stored in CSV format, while a Plant API is used to retrieve information about watering and sunlight.
+Main Pages
+Dashboard
+Shows the total number of plants, care tasks, growth logs, and saved plants.
 
-## Problem and Solution
+Add New Plant
+Used for adding a new plant and retrieving the watering and sunlight information from an API.
 
-Users who own plants may forget watering schedules, care tips, and plant information. This tool helps users by organizing all the data together and providing care information from an external API.
+Record Care
+Used to log the tasks such as watering, fertilization, repotting, and pruning.
 
-## Main Pages
+Due for Care
+Lists out plants that need watering.
 
-### Dashboard
-Lists total plants, care activities, growth records, and saved plants.
+Search Plants
+Enables the user to search for their plants by name or location.
 
-### Add New Plant
-Adds a new plant and gets watering and sunlight details from the API.
-
-### Record Care
-Records watering, fertilizing, repotting, and pruning activities.
-
-### Due for Care
-Displays plants that require watering.
-
-### Search Plants
-Allows users to search for plants by name or location.
-
-### View All Plants
+View All Plants
 Displays all saved plants.
 
-### Track Growth
+Track Growth
 Tracks the height and measurement date of plants.
 
-### Seasonal Care
-Reminds users about seasonal care requirements.
+Seasonal Care
+Helps users remember the seasonal care needs.
 
-### Plant Photos
-Uploads photos of plants.
-
-### Adjust Schedule
-Modifies the watering schedule according to the season.
-
-### Plant Doctor
-Gives suggestions about possible issues based on symptoms.
-
-### Plant Care Assistant
-Gives basic answers regarding plant care.
-
-## Technologies
-
-### Python
-### Streamlit
-### Pandas
-### CSV
-### Plant API
-### Requests
-
-## Deployment Issue
-
-After the program was deployed on Streamlit Cloud, some text appeared too light because of differences between the local and deployed themes.
-
-Solution
+Plant Photos
+Uploads pictures of the plants.
 
 
-CSS was employed in changing the text color into dark text color while retaining the light-green design.
+Schedule Adjustment
+Depends upon seasonal variations to adjust the watering schedule accordingly.
 
-Plant Care Tracker Application: https://plant-care212.streamlit.app/
+Plant Doctor
+Suggests guidance according to symptoms of the problem.
+Plant Care Assistant
+Provides general information about caring for plants.
 
-Project Introduction Video: https://github.com/M5al-n/project_1/blob/main/Screen%20Recording%202026-09-22%20210702%20(1).mp4
+Technologies
+Python
+Streamlit
+Pandas
+CSV
+Plant API
+Requests
+Deployment Problem
+After deployment of the program to Streamlit Cloud, some texts became hard to see due to different themes locally and on the cloud service.
